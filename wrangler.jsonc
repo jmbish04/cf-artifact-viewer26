@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-artifact-viewer26",
+  "compatibility_date": "2026-04-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "artifacts": [{ "binding": "ARTIFACTS", "namespace": "default" }],
+  "observability": { "enabled": true }
+}
